@@ -25,13 +25,15 @@ body {
 
 #menuIconB {
   background-color: white;
+  border-width: 0.2em;
   border-radius: 0.3em;
 }
 
 .menuIconDiv {
   width: 1em;
   height: 0.2em;
-  background-color: lightslategray;
+  border-radius: 0.1em;
+  background-color: cadetblue;
   margin: 0.2em 0;
 }
 
@@ -186,15 +188,13 @@ nav {
     margin-top: 0.5em;
   }
 
-  /* Makes my name centered and changes the color. */  
+  /* Changes the color of my name. */  
   .desktopNavLinks {
-    padding-top: 0.1em; 
-    color: lightblue;
+    padding-top: 0.25em;
+    padding-left: 0.25em; 
+    color: white;
   }
 
-  .menuIconDiv {
-    background-color: skyblue;
-  }
   /* Spaces out my name and the menu icon. */
   .mobileMenu {
     display: flex;
