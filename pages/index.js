@@ -23,7 +23,7 @@ export default function Home() {
         <br></br>
         <p>I am a mostly self-taught programmer looking to move into the field professionally.</p>
         <p>For the last few years, I have put my biochemistry knowledge to use as a Freelance English and Specialist Editor for scientific journals.</p>
-        <p>Fortunately, that means I'm already well-accustomed to combing through dense content to find errors.</p>
+        <p>Fortunately, that means I&apos;m already well-accustomed to combing through dense content to find errors.</p>
         <p>Please take a look at some of the projects I have completed. Clicking one of the icons above will take you to my favourite project using that language/framework.</p>
       </div>
     </div>

@@ -14,8 +14,8 @@ export default function UFC_Data_Science() {
         <div id="content">
           <h3 id="projectTitle">React Native App&ndash;Spending Savvy</h3>
           <br></br>
-          <p>I built a React Native frontend for an app which can track spending in multiple categories. Unlike other apps, it doesn't require access to a bank account or do anything else annoying and excessive. It's deliberately simple.</p>
-          <p>If you're interested in the code, please <a href="https://github.com/ifoulidis/Savvy-Spending">check it out on GitHub</a>.</p>
+          <p>I built a React Native frontend for an app which can track spending in multiple categories. Unlike other apps, it doesn&apos;t require access to a bank account or do anything else annoying and excessive. It&apos;s deliberately simple.</p>
+          <p>If you&apos;re interested in the code, please <a href="https://github.com/ifoulidis/Savvy-Spending">check it out on GitHub</a>.</p>
           <Image src={AppImage2}></Image>
           <Image src={AppImage1}></Image>
         </div>
