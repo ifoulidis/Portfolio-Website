@@ -6,6 +6,10 @@ body {
   margin: 0px;
 }
 
+.container {
+  padding: 0 2rem;
+}
+
 /* Intra-directory links */
 
 .mobileMenuLinks {
@@ -14,10 +18,12 @@ body {
   font-family: Garamond, sans-serif;
 }
 
-.desktopNavLinks {
+.HomeLink {
   text-decoration: none;
   color: whitesmoke;
   font-family: sans-serif;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
 }
 
 /* ###################### */
@@ -57,6 +63,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
 
 .desktopNav a:link, .desktopNav a:visited {
   text-decoration: none;
@@ -126,30 +133,65 @@ nav {
   display: block;
 }
 
+#carousalCont{
+  margin-top: 15%;
+}
 
 #content {
   opacity: 0.65;
   padding: 3.5em;
-  margin-top: 10%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 10%;
   background-color: lightblue;
   text-align: justify;
 }
 
-#icon_container{
+.icon_container{
   display: flex;
   justify-content: space-around;
 }
 
-#projectTitle{
+#projectTitle, #centredContent{
   text-align:center;
+}
+
+li{
+    font-family: sans-serif;
+      font-size: 1em;
 }
 
 #content>p {
   font-family: sans-serif;
-  font-size: 1.3em;
+  font-size: 1em;
+}
+
+/* Styles for Projects landing page. */
+
+.grid-container {
+  display: grid;
+  padding-top:3rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 1.5rem;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.articleGrid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border: none;
+  border-radius: 0.2em;
+  background-color: white;
+}
+
+.cardT {
+  color: rgb(49, 153, 194);
+  text-align: center;
+  font-weight: 500;
+  font-family: Garamond, sans-serif;
 }
 
 @media screen and (max-width: 1280px) {
@@ -158,6 +200,10 @@ nav {
   }
   .dropdown-content {
     min-width: 150%;
+  }
+  .grid-container { 
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 5%;
   }
 }
 
@@ -185,15 +231,8 @@ nav {
 
   nav {
     display: flex;
-    margin-top: 0.5em;
   }
 
-  /* Changes the color of my name. */  
-  .desktopNavLinks {
-    padding-top: 0.25em;
-    padding-left: 0.25em; 
-    color: white;
-  }
 
   /* Spaces out my name and the menu icon. */
   .mobileMenu {
@@ -201,4 +240,9 @@ nav {
     width: 100%;
     justify-content: space-between;
   }
+  .grid-container { 
+    grid-template-columns: repeat(1, 1fr); 
+    padding: 5%;
+  }
+
 }

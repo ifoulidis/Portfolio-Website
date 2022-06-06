@@ -9,12 +9,12 @@ import NextJSIcon from '../public/nextjs_icon.png'
 import 'bootstrap/dist/css/bootstrap.css'
 import TopMatter from '../components/top_matter' 
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <div className="container">
       <TopMatter/>
       <div id="content">
-        <div className='icon_container'>
+        <div id='icon_container'>
           <Link href="./UFC_data_science/"><a><Image  src={PythonIcon} height={32} width={32}/></a></Link>
           <Link href="other_projects/spending_savvy"><a><Image  src={ReactIcon} height={32} width={32}/></a></Link>
           <Link href="other_projects/apologetics_website"><a><Image  src={NextJSIcon} height={32} width={32}/></a></Link>
