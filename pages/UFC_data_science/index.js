@@ -9,12 +9,12 @@ export default function UFC_Data_Science() {
     <div className="container">
       <TopMatter/>
       <div id="content">
-        <h2 id="projectTitle">Philosophy Website</h2>
+        <h2 id="projectTitle">UFC Data Analysis</h2>
         <br/>
         <h5>Skills Shown</h5>
         <ul>
-          <li>Systematic data analysis skills.</li>
-          <li>Interesting findings that could have real relevance for coaches, commentators, betters, etc.</li>
+          <li>Problem solving with real, slightly messy data.</li>
+          <li>Pursuing results that could have relevance in the real world.</li>
           <li>Clear understanding of the limitations of the analysis.</li>
           <li>The ability to use Pandas, numpy, matplotlib, etc.</li>
           <li>The ability to write efficient and clear Python code.</li>
