@@ -46,6 +46,7 @@ body {
 .mmContent {
   text-align: center;
   color: cadetblue;
+  height: 100%;
 }
 
 .mobileMenu {
@@ -98,10 +99,12 @@ nav {
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown, .menuDivs {
+.menuDivs {
   min-width: 20%;
   text-align: center;
   align-items: center;
+  border:0px;
+  fill-opacity: 0;
 }
 
 /* Dropdown Content (Hidden by Default) */
