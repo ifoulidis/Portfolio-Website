@@ -8,7 +8,7 @@ export default function PortfolioWebsite() {
       <NavigationBar/>
       <div>
         <div id="content">
-          <h2 id="projectTitle">Philosophy Website</h2>
+          <h2 id="projectTitle">Portfolio Website</h2>
           <br/>
           <h5>Skills Shown</h5>
           <ul>
