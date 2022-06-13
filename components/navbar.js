@@ -49,7 +49,7 @@ export default function NavigationBar(page){
                             duration: 0.2
                         }
                         }}>
-                        <Link href="/projects"><button className="dropbtn"><a style ={st2}>Projects</a></button></Link>
+                        <Link href="/projects"><button><a style ={st2}>Projects</a></button></Link>
                     </motion.div>
                     <motion.div className="menuDivs" whileHover={{
                         scale: 1.2,
