@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TopMatter from '../components/top_matter'
+import NavigationBar from '../components/navbar' 
 import PythonIcon from '../public/python_icon.png'
 import ReactIcon from '../public/react_icon.png'
 import CSharpIcon from '../public/csharp_icon.png'
@@ -56,10 +56,10 @@ function Card(link, title, description, image1, image2, image3){
 export default function Projects(){
   return(
     <div className="container">
-      <TopMatter/>
+      <NavigationBar page='projects'/>
       <div className="grid-container">
         {Card('./UFC_data_science/', 'UFC Data Science', 
-        <p>Analysis of UFC data with interesting findings</p>, PythonIcon)}
+        <div><p>Analysis of UFC data with interesting findings</p><h4 className="cardT">Featured Project</h4></div>, PythonIcon)}
         {Card("./other_projects/apologetics_website", 'Apologetics Website', 
         <p>A neat website with self-made quizzes and articles</p>, NextJSIcon, ReactIcon, BootstrapIcon)}
         {Card("./other_projects/savvy_spending", 'React Native Spending Tracker', 

@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { NavigationBar } from '../../components/navbar'
-import TopMatter from '../../components/top_matter'
+import NavigationBar from '../../components/navbar'
 
 export default function UFC_Data_Science() {
   return (
     <div className="container">
-      <TopMatter/>
+      <NavigationBar/>
       <div id="content">
         <h2 id="projectTitle">UFC Data Analysis</h2>
         <br/>
