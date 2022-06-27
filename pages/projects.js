@@ -13,7 +13,6 @@ import {motion} from 'framer-motion'
 
 function Card(link, title, description, image1, image2, image3){
   let images
-  console.log(image1.src)
   if (image3){ 
     images = (
       <div className="icon_container">
@@ -31,13 +30,17 @@ function Card(link, title, description, image1, image2, image3){
       </div>
     )
   }
-  else{
+  else if (image1){
     images = (
       <div className="icon_container">
         <Image  src={image1} height={32} width={32}/>
       </div>
     )
   }
+  else{
+    images = (<div></div>)
+  }
+
   return (
     <Link href={link}><motion.button className="articleGrid" whileHover={{
       scale: [1, 1.4, 1.2],
@@ -70,6 +73,8 @@ export default function Projects(){
         <p>A C# game with jumping and throwing</p>, CSharpIcon)}
         {Card("./Python_projects/folium_map", 'Folium Map with Layers', 
         <p>Interactive markers of US volcanoes and world population</p>, PythonIcon)}
+        {Card("./other_projects/phone_fixer", 'Basic Local Business Website', 
+        <p>A simple HTML and CSS website with a contact form.</p>)}
       </div>
     </div>
   );
