@@ -16,9 +16,8 @@ export default function PortfolioWebsite() {
             <li>Responsive design.</li>
             <li>Use of PHP for a form.</li>
           </ul>
-          <h5>Github Link</h5>
           <h5>Summary</h5>
-          <p><br/>This is a very simple local business website that displays very basic web design skills. You can see it at <a href='http://phonefixer.co.nz/'>http://phonefixer.co.nz/</a>.</p>
+          <p><br/>This is a very simple local business website that displays very basic web design skills. It is temporarily unavailable, as there is an issue with the web host (they are serving an old CSS file but new HTML).</p>
         </div>
       </div>
     </div>
