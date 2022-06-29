@@ -25,6 +25,11 @@ body {
   padding-left: 0.25em;
 }
 
+.inTextLinks {
+  text-decoration: none;
+  color: rgb(0, 191, 255);
+}
+
 /* ###################### */
 /* Styles for the navbar. */
 

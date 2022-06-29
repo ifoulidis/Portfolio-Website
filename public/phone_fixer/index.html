@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Phone Fixer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Literata" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216208121-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-216208121-1');
+    </script>
+</head>
+
+<body>
+    <nav>
+        <h3 id="mainTitle">The Phone Fixer</h3> 
+        <h3><a id="contactLink" href="#contact">Contact</a></h3>
+    </nav>
+    
+    
+<!-- This section is for a slogan or special offer. -->
+    <div id="offer">
+        <p id="offerText"><i>Limited Offer&mdash;Get In Quick</i></p>
+        <h1 id="freeRepair">Get 25% off Labour!</h1>
+    </div>
+
+    
+<!-- This section lists my services. -->
+    <div id="sectionTitle">
+        <h1>SERVICES</h1>
+    </div>
+    <hr>
+    <div id="services">
+<!-- Add Javascript for underlines between items here -->
+        <h1>Screen Repairs, Battery Replacements, Etc.</h1><br />
+        <h1>Pick-Up and Delivery within Matamata.</h1><br/>
+        <h1>If the Right Part Can Be Ordered, It Can Probably Be Fixed!</h1><br/>
+        <h2>Contact Me for a Quote or Assessment.</h2><br/>
+    </div>
+
+    
+<!-- This section is for a picture of the town. -->
+    <div id="banner"></div>
+
+<!-- This section provides a form. -->
+    <div id="sectionTitle">
+        <h1>Contact</h1>
+    </div>
+    <hr>
+    <div id="contact">
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contactForm.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            <div>
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <h3>Located in Matamata</h3>
+        <h3>022-5319-077</h3>
+    </footer>
+</body>
+</html>

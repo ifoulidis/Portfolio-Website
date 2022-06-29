@@ -24,11 +24,11 @@ export default function SpendingSavvy() {
             <li>Handling of user input.</li>
           </ul>
           <h5>Github Link</h5>
-          <p><a href='https://github.com/ifoulidis/Savvy-Spending'>https://github.com/ifoulidis/Savvy-Spending</a></p>
+          <p><a href='https://github.com/ifoulidis/Savvy-Spending' className='inTextLinks'>https://github.com/ifoulidis/Savvy-Spending</a></p>
           <h5>Summary</h5>
           <p>I built a React Native frontend for an app which can track spending in multiple categories. Unlike other apps, it doesn&apos;t require access to a bank account or do anything else annoying and excessive. It&apos;s deliberately simple.</p>
           <p>Due to a massive design overhaul, not much in the way of Typescript-specific JS is shown, but that will change once I have reconstructed the application, including adding login functionality, etc.</p>
-          <p>If you&apos;re interested in the code, please <a href="https://github.com/ifoulidis/Savvy-Spending">check it out on GitHub</a>.</p>
+          <p>If you&apos;re interested in the code, please <a href="https://github.com/ifoulidis/Savvy-Spending" className='inTextLinks'>check it out on GitHub</a>.</p>
           <div id="centredContent">
             <button onClick={handleShow} id="menuIconB">
               SEE IMAGES

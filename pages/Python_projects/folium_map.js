@@ -20,7 +20,7 @@ export default function FoliumMap() {
           </ul>
           <h5>Summary</h5>
           <p>This is a simple web page I created by following an online tutorial and changing some things to make them fit my preferences and get more experience.</p>
-          <p>The map has two layers: one shows the positions of volcanoes in the US (colour coded according to their elevation), and some information about them; the other colour codes countries by their populations. You can see the fullscreen page by clicking <Link href="/map1.html">here.</Link></p>
+          <p>The map has two layers: one shows the positions of volcanoes in the US (colour coded according to their elevation), and some information about them; the other colour codes countries by their populations. You can see the fullscreen page by clicking <Link href="/map1.html"><a className='inTextLinks'>here.</a></Link></p>
           <iframe src="/map1.html" width="560" height="315" frameBorder="0"></iframe>
           <p></p>
       </div>

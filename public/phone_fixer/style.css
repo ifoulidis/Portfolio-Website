@@ -1,0 +1,213 @@
+body {
+  background-color: white;
+  color: black;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+/* Header and footer */
+nav {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 4em;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+footer {
+  padding:1em;
+  margin-top: 2em;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 4em;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+  font-family: Garamond, sans-serifs;
+}
+a:visited {
+  color: white;
+  font-style: bold;
+  font-family: Garamond, sans-serif;
+}
+a:hover{
+  color: deepskyblue;
+}
+
+/*Container for the special offer */
+#offer {
+  padding: 30px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 15px;
+  align-content: center;
+  text-align: center;
+  background-color: honeydew;
+  font-family: Futara;
+  font-size: 1.5em;
+}
+
+/*Special Offer */
+#offerText {
+  padding: 0px;
+  margin: 5px;
+  color: darkorange;
+}
+
+#freeRepair {
+  color: darkorange;
+}
+
+/*Services container */
+
+#sectionTitle {
+  text-align: center;
+  margin: 80px;
+  font-family: 'Literata', Garamond;
+  color: steelblue;
+  font-size: 1.7em;
+}
+
+#services {
+  text-align: center;
+  margin: 80px;
+  font-family: 'Crimson Pro', Garamond;
+  font-size: 0.8em;
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#services h2 {
+  color: gray;
+}
+
+/* Banner styling */
+#banner {
+  background-image: URL(Matamata.jpg);
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#contact {
+  text-align: center;
+  margin: 50px;
+  padding-bottom: 4em;
+}
+
+.fcf-form-group{
+  padding-top:40px;
+}
+
+#Name{
+  margin-top: 0.2em; /* Space between the box label above and the box. */
+  padding: 0.5em;
+}
+    
+#Email{
+  margin-top: 0.2em; /* Space between the box label above and the box. */
+  padding: 0.5em;
+}
+
+#input[type="text"],
+textarea {
+  width: 50%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 0.2em;
+  margin-bottom: 0px;
+  resize: vertical;
+  font-size: 1em;
+}
+
+#fcf-button {
+  background-color: #5dade2;
+  color: white;
+  border: none;
+  border-radius: 1em;
+  height: 2.5em;
+  width: 7em;
+  margin-bottom:5em;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+/*##################################################################*/
+/*##################################################################*/
+/*##################################################################*/
+/*Mobile Version*/
+
+@media screen and (max-width: 480px) {
+/* Intra-directory links */
+  nav {
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  /*Container for the special offer */
+  #offer {
+    padding: 1em;
+    margin-top: 0px;
+  }
+
+  /*Services container */
+
+  #sectionTitle {
+    margin: 1em;
+    padding: none;
+  }
+
+  #services {
+    text-align: justify;
+    margin: 1em;
+    font-size: 1em;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  #services h2 {
+    color: deepskyblue;
+  }
+
+
+  #contact {
+    text-align: center;
+    margin: 1em;
+    font-size: 1.5em;
+  }
+
+
+  #input[type="text"],
+  textarea {
+    width: 100%;
+  }
+
+  #fcf-button {
+    height: 3em;
+    width: 7em;
+    margin-bottom: 5em;
+  } 
+  footer {
+    font-size: 1em;
+    display: inline-block;
+    padding:0.5em;
+    margin: 0em;
+  }
+
+}
