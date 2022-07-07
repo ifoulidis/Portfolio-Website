@@ -19,7 +19,8 @@ export default function Home() {
           <Link href="/other_projects/border_crossing"><a><Image  src={CSharpIcon} height={32} width={32}/></a></Link>
         </div>
         <br></br>
-        <p>I am a mostly self-taught programmer looking to move into the field professionally.</p>
+        <p>I am looking for my first programming job. I majored in biochemistry, but did second and third-year computer science papers.</p>
+        <p>You&apos;ll find me to be a fast learner, responsible, and an initiative taker.</p>
         <p>For the last few years, I have put my biochemistry knowledge to use as a Freelance English and Specialist Editor for scientific journals.</p>
         <p>Fortunately, that means I&apos;m already well-accustomed to combing through dense content to find errors.</p>
         <p>Please take a look at some of the projects I have completed. Clicking one of the icons above will take you to my favourite project using that language/framework.</p>

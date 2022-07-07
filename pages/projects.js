@@ -24,8 +24,8 @@ export default function Projects(){
         <p>A C# game with jumping and throwing</p>, CSharpIcon)}
         {Card("./Python_projects/folium_map", 'Folium Map with Layers', 
         <p>Interactive markers of US volcanoes and world population</p>, PythonIcon)}
-        {Card("./other_projects/phone_fixer", 'Basic Local Business Website', 
-        <p>A simple HTML and CSS website with a contact form.</p>)}
+        {Card("./other_projects/phone_fixer", 'Local Business Website', 
+        <p>A simple HTML and CSS website with a PHP contact form.</p>)}
       </div>
     </div>
   );
