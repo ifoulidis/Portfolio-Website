@@ -57,11 +57,13 @@ body {
   display: none;
 }
 
+
+
 nav {
   font-size: 1.3em;
   padding: 0.3em;
-  background-color: cadetblue;
-  color: white;
+  background-color: whitesmoke;
+  color: darkslategray;
   font-family: 'Crimson Pro', serif;
 }
 
@@ -73,7 +75,7 @@ nav {
 
 .desktopNav a:link, .desktopNav a:visited {
   text-decoration: none;
-  color: whitesmoke;
+  color: darkslategray;
 }
 
 
@@ -81,12 +83,16 @@ nav {
 #Banner {
   display: flex;
   justify-content: center;
-  padding-top: 0.7em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   font-family: Georgia, serif;
+  background-image: url("../public/Mountain\ banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #Banner a:link, #Banner a:visited {
   text-decoration: none;
-  color: lightskyblue;
+  color: darkslategray;
 }
 
 
@@ -107,7 +113,7 @@ nav {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 10%;
-  background-color: lightblue;
+  background-color: whitesmoke;
   text-align: justify;
   font-family: 'Literata', Garamond;
 }

@@ -11,9 +11,9 @@ export default function SpendingSavvy() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="container">
-      <NavigationBar/>
-      <div>
+    <div>
+      <NavigationBar page='projects'/>
+      <div className="container">
         <div id="content">
           <h3 id="projectTitle">React Native App&ndash;Spending Savvy</h3>
           <br/>

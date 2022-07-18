@@ -9,21 +9,21 @@ import NavigationBar from '../components/navbar'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <NavigationBar page='aboutme'/>
-      <div id="content">
-        <div className='icon_container'>
-          <Link href="/UFC_data_science/"><a><Image  src={PythonIcon} height={32} width={32}/></a></Link>
-          <Link href="/other_projects/spending_savvy"><a><Image  src={ReactIcon} height={32} width={32}/></a></Link>
-          <Link href="/other_projects/apologetics_website"><a><Image  src={NextJSIcon} height={32} width={32}/></a></Link>
-          <Link href="/other_projects/border_crossing"><a><Image  src={CSharpIcon} height={32} width={32}/></a></Link>
+      <div className="container">
+        <div id="content">
+          <div className='icon_container'>
+            <Link href="/UFC_data_science/"><a><Image  src={PythonIcon} height={32} width={32}/></a></Link>
+            <Link href="/other_projects/spending_savvy"><a><Image  src={ReactIcon} height={32} width={32}/></a></Link>
+            <Link href="/other_projects/apologetics_website"><a><Image  src={NextJSIcon} height={32} width={32}/></a></Link>
+            <Link href="/other_projects/border_crossing"><a><Image  src={CSharpIcon} height={32} width={32}/></a></Link>
+          </div>
+          <br></br>
+          <p>I am an English and Specialist Editor for scientific journals.</p>
+          <p>My degree is in biochemistry, but afterward, I became a hobbyist developer and have acquired skills in a number fields of programming.</p>
+          <p>Please take a look at some of the projects I have completed. Clicking one of the icons above will take you to my favourite project using that language/framework.</p>
         </div>
-        <br></br>
-        <p>I am looking for my first programming job. I majored in biochemistry, but did second and third-year computer science papers.</p>
-        <p>You&apos;ll find me to be a fast learner, responsible, and an initiative taker.</p>
-        <p>For the last few years, I have put my biochemistry knowledge to use as a Freelance English and Specialist Editor for scientific journals.</p>
-        <p>Fortunately, that means I&apos;m already well-accustomed to combing through dense content to find errors.</p>
-        <p>Please take a look at some of the projects I have completed. Clicking one of the icons above will take you to my favourite project using that language/framework.</p>
       </div>
     </div>
   )

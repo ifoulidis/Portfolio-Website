@@ -23,7 +23,7 @@ export default function NavigationBar(page){
     }}, [])
     
     return(
-        <div>
+        <div class="nav-div">
             <Head>
                 <title></title>
                 <meta name="description" content="Created by Isaiah Foulidis with Next.js." />

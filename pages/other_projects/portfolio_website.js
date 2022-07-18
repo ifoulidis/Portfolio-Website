@@ -4,9 +4,9 @@ import NavigationBar from '../../components/navbar'
 
 export default function PortfolioWebsite() {
   return (
-    <div className="container">
-      <NavigationBar/>
-      <div>
+    <div>
+      <NavigationBar page='projects'/>
+      <div className="container">
         <div id="content">
           <h2 id="projectTitle">Portfolio Website</h2>
           <br/>
