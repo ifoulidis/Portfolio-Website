@@ -3,34 +3,11 @@ import React from 'react';
 import Image from 'next/image';
 import {motion} from 'framer-motion'
 
-export default function Card(link, title, description, image1, image2, image3){
-  let images
-  if (image3){ 
-    images = (
-      <div className="icon_container">
-        <Image alt='logo' src={image1} height={32} width={32}/>
-        <Image alt='logo' src={image2} height={32} width={32}/>
-        <Image alt='logo' src={image3} height={32} width={32}/>
-      </div>
-    )
-  }
-  else if (image2){
-    images = (
-      <div className="icon_container">
-        <Image alt='logo' src={image1} height={32} width={32}/>
-        <Image alt='logo' src={image2} height={32} width={32}/>
-      </div>
-    )
-  }
-  else if (image1){
-    images = (
-      <div className="icon_container">
-        <Image alt='logo' src={image1} height={32} width={32}/>
-      </div>
-    )
-  }
-  else{
-    images = (<div></div>)
+export default function Card(link, title, description, imageArray){
+  const imageSet = [];
+  for (let x in imageArray) {
+    let newImage = <Image alt='logo' src={imageArray[x]} key = {x} height={32} width={32}/>
+    imageSet.push(newImage) 
   }
 
   return (
@@ -42,7 +19,9 @@ export default function Card(link, title, description, image1, image2, image3){
       }
     }}>
       <h4 className="cardT">{title}</h4>
-      {images}
+      <div className="icon_container">
+        {imageSet}
+      </div>
       {description}
     </motion.button></Link>
   )
