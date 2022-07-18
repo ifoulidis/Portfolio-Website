@@ -20,7 +20,7 @@ body {
 
 .HomeLink {
   text-decoration: none;
-  color: whitesmoke;
+  color: cadetblue;
   padding-top: 0.25em;
   padding-left: 0.25em;
 }
@@ -185,7 +185,11 @@ li{
 
   /* Removes the banner. */
   #Banner{
-    display: none;
+    background-image: url(../public/mountain_banner_mobile.jpg);
+    height:133px;
+  }
+  #banner-text{
+    display:none;
   }
 
   #content {

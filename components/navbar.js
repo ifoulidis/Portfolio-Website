@@ -26,12 +26,12 @@ export default function NavigationBar(page){
     return(
         <div>
             <Head>
-                <title></title>
+                <title>Isaiah Foulidis</title>
                 <meta name="description" content="Created by Isaiah Foulidis with Next.js." />
             </Head>
 
             <div id="Banner">
-                <h2><Link href="/"><a>ISAIAH FOULIDIS</a></Link></h2>
+                <h2 id="banner-text"><Link href="/"><a>ISAIAH FOULIDIS</a></Link></h2>
             </div>
 
             <nav>
@@ -62,7 +62,7 @@ export default function NavigationBar(page){
                     </motion.div>
                 </div>
                 <div className='mobileMenu'>
-                    <Link href="/"><a className="HomeLink">ISAIAH FOULIDIS</a></Link>
+                    <Link href="/projects"><a className="HomeLink">ISAIAH FOULIDIS</a></Link>
                     <button onClick={handleShow} id="menuIconB">
                         <div className='menuIconDiv'></div><div className='menuIconDiv'></div><div className='menuIconDiv'></div>
                     </button>
