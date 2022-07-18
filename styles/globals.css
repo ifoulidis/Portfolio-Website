@@ -141,7 +141,7 @@ li{
 
 .grid-container {
   display: grid;
-  padding-top:3rem;
+  padding-top: 3rem;
   padding-left: 20%;
   padding-right: 20%;
   margin: 1.5rem;
@@ -165,7 +165,7 @@ li{
   font-family: Garamond, sans-serif;
 }
 
-cardD{
+.cardD{
   color:black;
 }
 

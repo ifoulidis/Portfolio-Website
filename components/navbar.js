@@ -42,7 +42,7 @@ export default function NavigationBar(page){
                             duration: 0.2
                         }
                         }}>
-                        <Link href="/"><a style ={st1}>About Me</a></Link>
+                        <Link href="/aboutme"><a style ={st1}>About Me</a></Link>
                     </motion.div>
                     <motion.div className="menuDivs" whileHover={{
                         scale: 1.2,
@@ -50,7 +50,7 @@ export default function NavigationBar(page){
                             duration: 0.2
                         }
                         }}>
-                        <Link href="/projects"><a style ={st2}>Projects</a></Link>
+                        <Link href="/"><a style ={st2}>Projects</a></Link>
                     </motion.div>
                     <motion.div className="menuDivs" whileHover={{
                         scale: 1.2,
@@ -62,7 +62,7 @@ export default function NavigationBar(page){
                     </motion.div>
                 </div>
                 <div className='mobileMenu'>
-                    <Link href="/projects"><a className="HomeLink">ISAIAH FOULIDIS</a></Link>
+                    <Link href="/"><a className="HomeLink">ISAIAH FOULIDIS</a></Link>
                     <button onClick={handleShow} id="menuIconB">
                         <div className='menuIconDiv'></div><div className='menuIconDiv'></div><div className='menuIconDiv'></div>
                     </button>
@@ -71,9 +71,9 @@ export default function NavigationBar(page){
                             <Offcanvas.Title></Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body className='mmContent'>
-                            <h1><Link href="/"><a style= {st1} className="mobileMenuLinks" onClick={handleClose}>About Me</a></Link></h1>
+                            <h1><Link href="/aboutme"><a style= {st1} className="mobileMenuLinks" onClick={handleClose}>About Me</a></Link></h1>
                             <hr/>
-                            <h1 ><Link href="/projects"><a style= {st2} className="mobileMenuLinks" onClick={handleClose}>Browse Projects</a></Link></h1>
+                            <h1 ><Link href="/"><a style= {st2} className="mobileMenuLinks" onClick={handleClose}>Browse Projects</a></Link></h1>
                             {/* Note that links for content in the 'public' folder simple start with a / from anywhere. */}
                             <hr/>
                             <h1><Link href="/CV.pdf"><a className="mobileMenuLinks">Resume</a></Link></h1>

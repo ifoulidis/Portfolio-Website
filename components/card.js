@@ -11,7 +11,7 @@ export default function Card(link, title, description, imageArray){
   }
 
   return (
-    <Link href={link}><motion.button className="articleGrid" whileHover={{
+    <Link href={link}><motion.div className="articleGrid" whileHover={{
       scale: [1, 1.4, 1.2],
       zIndex: 1,
       transition: {
@@ -23,6 +23,6 @@ export default function Card(link, title, description, imageArray){
         {imageSet}
       </div>
       {description}
-    </motion.button></Link>
+    </motion.div></Link>
   )
 }
