@@ -23,7 +23,7 @@ export default function LatinBootstrapBlog() {
             If you are on one of the main pages, the navbar will show you as much by making the link bold. Hovering on an article on the Articles page or 
             on a link in the navbar will change with scale with a CSS animation. The images have also been scaled to still be crisp on large screens but 
             load much faster than full-size ones.</p>
-            <p>To see it, click <a href="http://isaiah-foulidis.great-site.net/" className='inTextLinks'>this link</a> or go to https://phonefixer.co.nz</p>
+            <p>To see it, click <a href="http://isaiah-foulidis.great-site.net/" className='inTextLinks'>this link</a> or go to http://isaiah-foulidis.great-site.net/</p>
           </div>
         </div>
       </div>

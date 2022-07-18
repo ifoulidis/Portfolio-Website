@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Head from 'next/head'
 
+
 export default function NavigationBar(page){
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -23,7 +24,7 @@ export default function NavigationBar(page){
     }}, [])
     
     return(
-        <div class="nav-div">
+        <div>
             <Head>
                 <title></title>
                 <meta name="description" content="Created by Isaiah Foulidis with Next.js." />

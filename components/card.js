@@ -8,24 +8,24 @@ export default function Card(link, title, description, image1, image2, image3){
   if (image3){ 
     images = (
       <div className="icon_container">
-        <Image  src={image1} height={32} width={32}/>
-        <Image  src={image2} height={32} width={32}/>
-        <Image  src={image3} height={32} width={32}/>
+        <Image alt='logo' src={image1} height={32} width={32}/>
+        <Image alt='logo' src={image2} height={32} width={32}/>
+        <Image alt='logo' src={image3} height={32} width={32}/>
       </div>
     )
   }
   else if (image2){
     images = (
       <div className="icon_container">
-        <Image  src={image1} height={32} width={32}/>
-        <Image  src={image2} height={32} width={32}/>
+        <Image alt='logo' src={image1} height={32} width={32}/>
+        <Image alt='logo' src={image2} height={32} width={32}/>
       </div>
     )
   }
   else if (image1){
     images = (
       <div className="icon_container">
-        <Image  src={image1} height={32} width={32}/>
+        <Image alt='logo' src={image1} height={32} width={32}/>
       </div>
     )
   }

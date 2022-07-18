@@ -39,8 +39,8 @@ export default function SpendingSavvy() {
                 <Offcanvas.Title></Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body className='mmContent'>
-              <Image src={AppImage2}></Image>
-              <Image src={AppImage1}></Image>
+              <Image alt="appimage" src={AppImage2}></Image>
+              <Image alt="appimage" src={AppImage1}></Image>
             </Offcanvas.Body>
           </Offcanvas>
         </div>
