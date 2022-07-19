@@ -8,7 +8,7 @@ export default function PortfolioWebsite() {
       <NavigationBar page='projects'/>
       <div className="container">
         <div id="content">
-          <h2 id="projectTitle">Portfolio Website</h2>
+          <a href='https://github.com/ifoulidis/Portfolio-Website' className='inTextLinks'><h2 id="projectTitle">Portfolio Website</h2></a>
           <br/>
           <h5>Skills Shown</h5>
           <ul>

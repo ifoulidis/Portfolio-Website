@@ -11,7 +11,7 @@ export default function FoliumMap() {
       <NavigationBar page='projects'/>
       <div className="container">
         <div id="content">
-            <h3 id="projectTitle">Folium Web Page with Map Layers</h3>
+            <Link href="/map1.html"><a className='inTextLinks'><h3 id="projectTitle">Folium Web Page with Map Layers</h3></a></Link>
             <br/>
             <h5>Skills Shown</h5>
             <ul>

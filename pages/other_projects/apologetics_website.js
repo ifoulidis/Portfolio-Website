@@ -7,7 +7,7 @@ export default function ApologeticWebsite() {
       <div className="container">
         <div>
           <div id="content">
-            <h2 id="projectTitle">Apologetics Website</h2>
+            <a href="https://whatistruth.vercel.app/" className='inTextLinks'><h2 id="projectTitle">Apologetics Website</h2></a>
             <br/>
             <h5>Skills Shown</h5>
             <ul>

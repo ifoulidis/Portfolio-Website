@@ -9,7 +9,7 @@ export default function UFC_Data_Science() {
       <NavigationBar page='projects'/>
       <div className="container">
         <div id="content">
-          <h2 id="projectTitle">UFC Data Analysis</h2>
+          <Link href="/UFC_project_code.pdf"><a className='inTextLinks'><h2 id="projectTitle">UFC Data Analysis</h2></a></Link>
           <br/>
           <h5>Skills Shown</h5>
           <ul>

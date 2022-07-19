@@ -9,7 +9,7 @@ export default function LatinBootstrapBlog() {
       <div className="container">
         <div>
           <div id="content">
-            <h2 id="projectTitle">Latin Bootstrap Blog</h2>
+            <a href="http://isaiah-foulidis.great-site.net/" className='inTextLinks'><h2 id="projectTitle">Latin Bootstrap Blog</h2></a>
             <br/>
             <h5>Skills Shown</h5>
             <ul>

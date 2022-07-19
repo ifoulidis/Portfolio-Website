@@ -9,7 +9,7 @@ export default function LocalBusinessWebsite() {
       <div className="container">
         <div>
           <div id="content">
-            <h2 id="projectTitle">Local Business Website</h2>
+            <a href="https://phonefixer.co.nz" className='inTextLinks'><h2 id="projectTitle">Local Business Website</h2></a>
             <br/>
             <h5>Skills Shown</h5>
             <ul>

@@ -15,7 +15,7 @@ export default function SpendingSavvy() {
       <NavigationBar page='projects'/>
       <div className="container">
         <div id="content">
-          <h3 id="projectTitle">React Native App&ndash;Spending Savvy</h3>
+          <a href='https://github.com/ifoulidis/Savvy-Spending' className='inTextLinks'><h3 id="projectTitle">React Native App&mdash;Spending Savvy</h3></a>
           <br/>
           <h5>Skills Shown</h5>
           <ul>

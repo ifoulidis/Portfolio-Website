@@ -10,7 +10,7 @@ export default function BorderHopping() {
       <NavigationBar page='projects'/>
       <div className="container">
         <div id="content">
-            <h3 id="projectTitle">C# Game&ndash;Border Hopping</h3>
+            <a href="https://github.com/ifoulidis/Border-Hopping" className='inTextLinks'><h3 id="projectTitle">C# Game&ndash;Border Hopping</h3></a>
             <br/>
             <h5>Skills Shown</h5>
             <ul>
