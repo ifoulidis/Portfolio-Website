@@ -147,7 +147,6 @@ li{
   margin: 1.5rem;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  cursor:pointer;
 }
 
 .articleGrid {
@@ -157,6 +156,7 @@ li{
   border-radius: 0.2em;
   background-color: white;
   font-family: 'Literata', Garamond;
+  cursor: pointer;
 }
 
 .cardT {
