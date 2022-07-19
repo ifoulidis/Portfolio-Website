@@ -147,6 +147,7 @@ li{
   margin: 1.5rem;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
+  cursor:pointer;
 }
 
 .articleGrid {

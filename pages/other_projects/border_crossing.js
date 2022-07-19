@@ -11,6 +11,7 @@ export default function BorderHopping() {
       <div className="container">
         <div id="content">
             <h3 id="projectTitle">C# Game&ndash;Border Hopping</h3>
+            <br/>
             <h5>Skills Shown</h5>
             <ul>
               <li>Comptence with many OOP features.</li>
