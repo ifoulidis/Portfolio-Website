@@ -157,6 +157,9 @@ li{
   background-color: white;
   font-family: 'Literata', Garamond;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cardT {
@@ -166,8 +169,8 @@ li{
   font-family: Garamond, sans-serif;
 }
 
-.cardD{
-  color:black;
+.articleGrid p{
+  text-align: center;
 }
 
 @media screen and (max-width: 1280px) {
