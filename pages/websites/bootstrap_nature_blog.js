@@ -18,7 +18,7 @@ export default function NatureBootstrapBlog() {
               <li>Use of custom fonts.</li>
             </ul>
             <h5>Summary</h5>
-            <p><br/>This is a simple blog that relies almost entirely on Bootstrap. I just built it for Bootstrap experience following a tutorial, and messed around with it afterward. Click <Link href="/bootstrap_nature_blog/index.html"><a className='inTextLinks'>here</a></Link> to see it.</p>
+            <p><br/>This is a simple blog that relies almost entirely on Bootstrap. I just built it for Bootstrap experience following a tutorial, and messed around with it afterward. Click <Link href="http://isaiah-bootstrap-blog.great-site.net/?i=1"><a className='inTextLinks'>here</a></Link> to see it, or go to http://isaiah-bootstrap-blog.great-site.net/?i=1.</p>
           </div>
         </div>
       </div>
