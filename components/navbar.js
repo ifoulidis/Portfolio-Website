@@ -12,6 +12,7 @@ export default function NavigationBar(page){
     const handleShow = () => setShow(true);
     const [st1, setSt1] = useState( {fontWeight: 'normal'} );
     const [st2, setSt2] = useState( {fontWeight: 'normal'} );
+    const [st3, setSt3] = useState( {fontWeight: 'normal'} )
 
     useEffect(() =>
     {if (page){
@@ -20,6 +21,9 @@ export default function NavigationBar(page){
         }
         else if (page.page==='projects'){
             setSt2({fontWeight: '600'})
+        }
+        else if (page.page==='gallery'){
+            setSt3({fontWeight: '600'})
         }
     }}, [])
     
@@ -58,6 +62,14 @@ export default function NavigationBar(page){
                             duration: 0.2
                         }
                         }}>
+                        <Link href="/gallery"><a style ={st3}>Gallery</a></Link>
+                    </motion.div>
+                    <motion.div className="menuDivs" whileHover={{
+                        scale: 1.2,
+                        transition: {
+                            duration: 0.2
+                        }
+                        }}>
                         <Link href="/CV.pdf"><a>Resume</a></Link>
                     </motion.div>
                 </div>
@@ -74,8 +86,10 @@ export default function NavigationBar(page){
                             <h1><Link href="/aboutme"><a style= {st1} className="mobileMenuLinks" onClick={handleClose}>About Me</a></Link></h1>
                             <hr/>
                             <h1 ><Link href="/"><a style= {st2} className="mobileMenuLinks" onClick={handleClose}>Browse Projects</a></Link></h1>
-                            {/* Note that links for content in the 'public' folder simple start with a / from anywhere. */}
                             <hr/>
+                            <h1 ><Link href="/"><a style= {st3} className="mobileMenuLinks" onClick={handleClose}>Gallery</a></Link></h1>
+                            <hr/>
+                            {/* Note that links for content in the 'public' folder simple start with a / from anywhere. */}
                             <h1><Link href="/CV.pdf"><a className="mobileMenuLinks">Resume</a></Link></h1>
                         </Offcanvas.Body>
                     </Offcanvas>
