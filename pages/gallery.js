@@ -1,9 +1,9 @@
-
+import NavigationBar from "../components/navbar";
 
 export default function Gallery() {
   return (
     <div>
-      <NavigationBar page='projects'/>
+      <NavigationBar page="projects" />
       <div className="container">
         <div className="grid-container">
           {/* <Image src={} alt="Apologetics website home page."/>
@@ -12,5 +12,5 @@ export default function Gallery() {
         </div>
       </div>
     </div>
-  )
+  );
 }
