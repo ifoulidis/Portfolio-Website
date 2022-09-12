@@ -57,6 +57,12 @@ export default function Home() {
             [BootstrapIcon, JSIcon, CSSIcon]
           )}
           {Card(
+            "./websites/relax_dental",
+            "Relax Dental",
+            <p>See how I tidied up a website with failed plugins</p>,
+            [CSSIcon]
+          )}
+          {Card(
             "./other_projects/border_crossing",
             "C# Game",
             <p>A C# game with jumping and throwing</p>,
