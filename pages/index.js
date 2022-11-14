@@ -63,6 +63,12 @@ export default function Home() {
             [CSSIcon]
           )}
           {Card(
+            "./websites/white_dove_painting",
+            "White Dove Painting",
+            <p>A W3.CSS website for a small business</p>,
+            [PythonIcon]
+          )}
+          {Card(
             "./other_projects/border_crossing",
             "C# Game",
             <p>A C# game with jumping and throwing</p>,

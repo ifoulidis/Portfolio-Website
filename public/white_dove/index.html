@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>White Dove Painting</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Gentium Book Plus", serif;
+      }
+      p {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .menu {
+        display: none;
+      }
+
+      .bgimg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./images/Dad3.jpg");
+        min-height: 90%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top w3-hide-small">
+      <div
+        class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off"
+        id="myNavbar"
+      >
+        <a class="w3-bar-item w3-xxlarge">White Dove Painting</a>
+        <a href="#" class="w3-bar-item w3-button w3-margin-top w3-margin-left"
+          >HOME</a
+        >
+        <a href="#about" class="w3-bar-item w3-button w3-margin-top">ABOUT</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-margin-top"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-min" id="home">
+      <div class="w3-display-bottomleft w3-padding">
+        <span class="w3-tag w3-xlarge">0276061821</span>
+      </div>
+      <div class="w3-display-middle w3-center">
+        <span
+          class="w3-text-white w3-hide-small"
+          style="
+            font-size: 60px;
+            font-family: 'Gentium Book Plus', serif;
+            text-shadow: 2px 2px 4px black;
+            margin-bottom: 64px;
+          "
+          >The Best Products<br />The Best Work</span
+        >
+        <span
+          class="w3-text-white w3-hide-large w3-hide-medium"
+          style="
+            font-size: 60px;
+            font-family: 'Gentium Book Plus', serif;
+            text-shadow: 2px 2px black;
+            margin-bottom: 64px;
+          "
+          >The Best Products<br />The Best Work</span
+        >
+        <p>
+          <a
+            href="#contact"
+            class="w3-button w3-xlarge w3-cyan w3-round-large"
+            style="font-family: 'Gentium Book Plus', serif"
+            >ENQUIRE</a
+          >
+        </p>
+      </div>
+    </header>
+
+    <!-- About Container -->
+    <div
+      class="w3-container w3-padding-64 w3-pale-blue w3-grayscale-min w3-xlarge"
+      id="about"
+    >
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom: 64px">About</h1>
+        <hr style="border-top: 2px solid dimgray" />
+        <p class="w3-justify w3-xlarge">
+          I have been painting for over 40 years. I led teams in my early career
+          before going off on my own. For the last 20 years, I have been in
+          Matamata, and White Dove is well-known as the best you can get.
+          <br /><br />
+          I am both fast and a perfectionist. You won&#39;t be disappointed if
+          you choose me for your next job, whether you have a beautiful new home
+          or a garage to get done.
+          <br /><br />
+          I have a scaffold, a sprayer, plastering equipment, and a
+          water-blaster on hand, so I can take care of plenty of jobs other
+          painters have to delegate.
+        </p>
+        <img
+          src="./images/Dad1.jpg"
+          style="width: 100%"
+          class="w3-margin-top w3-margin-bottom"
+          alt="Image of Phillip, White Dove Painting"
+        />
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div
+      id="contact"
+      class="w3-container w3-padding-64 w3-red w3-grayscale-min w3-xlarge"
+    >
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom: 64px">Contact</h1>
+        <hr />
+        <p class="w3-center w3-xxlarge">Mobile: 0276061821</p>
+        <p class="w3-center w3-xxlarge">Email: p_foulidis@outlook.com</p>
+        <p class="w3-center w3-xlarge">
+          <span class="w3-tag">FYI!</span> I do wallpapering, spray-painting,
+          and more!
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+      <p>
+        Designed by
+        <a
+          href="https://www.ifoulidis.vervel.app/"
+          title="Isaiah Foulidis"
+          target="_blank"
+          class="w3-hover-text-green"
+          >Isaiah Foulidis</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Tabbed Menu
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-red";
+      }
+      document.getElementById("myLink").click();
+    </script>
+  </body>
+</html>
