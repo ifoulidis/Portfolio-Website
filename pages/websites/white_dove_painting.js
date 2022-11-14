@@ -14,7 +14,7 @@ export default function WhiteDovePainting() {
             <h5>Skills Shown</h5>
             <ul>
               <li>
-                Use of a convenient CSS library for basic websites (w3 CSS).
+                Use of a convenient CSS library for basic websites (W3.CSS).
               </li>
               <li>Rapidity.</li>
             </ul>
