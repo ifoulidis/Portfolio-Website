@@ -12,8 +12,9 @@ export default function NavigationBar(page) {
   const [st1, setSt1] = useState({ fontWeight: "normal" });
   const [st2, setSt2] = useState({ fontWeight: "normal" });
   //const [st3, setSt3] = useState( {fontWeight: 'normal'} )
-  if (page) {
-    useEffect(() => {
+
+  useEffect((page) => {
+    if (page) {
       if (page.page === "aboutme") {
         setSt1({ fontWeight: "600" });
       } else if (page.page === "projects") {
@@ -21,9 +22,9 @@ export default function NavigationBar(page) {
       }
       // else if (page.page==='gallery'){
       //     setSt3({fontWeight: '600'})
-      // }
-    }, []);
-  }
+      //
+    }
+  }, []);
   return (
     <div>
       <Head>
