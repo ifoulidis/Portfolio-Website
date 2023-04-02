@@ -18,25 +18,40 @@ export default function Home() {
       <NavigationBar page="projects" />
       <div className="container">
         <div className="grid-container">
-          {Card(
-            "./UFC_data_science/",
-            "UFC Data Science",
-            <p>Analysis of UFC data with interesting findings</p>,
-            [PythonIcon]
-          )}
           {/* {Card("./other_projects/apologetics_website", 'Apologetics Website', 
           <p>A neat website with self-made quizzes and articles</p>, [NextJSIcon, ReactIcon, BootstrapIcon])} */}
           {Card(
-            "./other_projects/savvy_spending",
-            "React Native Spending Tracker",
-            <p>Cross-platform app &bull; UI built with JSX</p>,
-            [ReactIcon]
+            "./Python_projects/python_close",
+            "Python Interface for Close API",
+            <p>
+              I used Fast API in Python to connect to the Close API and prepare
+              data for Power BI
+            </p>,
+            [PythonIcon]
           )}
           {Card(
             "./websites/node_xero_api",
             "Node Xero API",
             <p>An API to access Xero&#39;s API</p>,
             [NodeIcon]
+          )}
+          {Card(
+            "./UFC_data_science/",
+            "UFC Data Science",
+            <p>Analysis of UFC data with interesting findings</p>,
+            [PythonIcon]
+          )}
+          {Card(
+            "./websites/relax_dental",
+            "Relax Dental",
+            <p>See how I tidied up a website with failed plugins</p>,
+            [CSSIcon]
+          )}
+          {Card(
+            "./other_projects/savvy_spending",
+            "React Native Spending Tracker",
+            <p>Cross-platform app &bull; UI built with JSX</p>,
+            [ReactIcon]
           )}
           {Card(
             "./other_projects/portfolio_website",
@@ -56,12 +71,7 @@ export default function Home() {
             <p>A simple blog built with Bootstrap</p>,
             [BootstrapIcon, JSIcon, CSSIcon]
           )}
-          {Card(
-            "./websites/relax_dental",
-            "Relax Dental",
-            <p>See how I tidied up a website with failed plugins</p>,
-            [CSSIcon]
-          )}
+
           {Card(
             "./websites/white_dove_painting",
             "White Dove Painting",
