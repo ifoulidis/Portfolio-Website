@@ -42,13 +42,13 @@ export default function PythonClose() {
             provided in Power BI (similar to Excel, but more powerful).
           </p>
           <p>
-            This was first accomplished by finding the Close API's endpoints and
-            testing the Close Python wrapper. The wrapper suited most of our
-            purposes but not all. Therefore, I had to abandon use of the
-            wrapper. Then, I had to deal with pagination in two different ways,
-            as some of the data were far more numerous and likely to exceed
-            Close's API's limits than others. The end result was delivered on
-            March 6th.
+            This was first accomplished by finding the Close API&apos;s
+            endpoints and testing the Close Python wrapper. The wrapper suited
+            most of our purposes but not all. Therefore, I had to abandon use of
+            the wrapper. Then, I had to deal with pagination in two different
+            ways, as some of the data were far more numerous and likely to
+            exceed Close&apos;s API&apos;s limits than others. The end result
+            was delivered on March 6th.
           </p>
         </div>
       </div>
