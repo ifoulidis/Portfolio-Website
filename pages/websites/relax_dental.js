@@ -12,9 +12,9 @@ export default function RelaxDental() {
       <div className="container">
         <div>
           <div id="content">
-            <a href="#" className="inTextLinks">
-              <h2 id="projectTitle">Relax Dental</h2>
-            </a>
+            <h2 id="projectTitle" className="noLinkTitle">
+              Relax Dental
+            </h2>
             <br />
             <h5>Skills Shown</h5>
             <ul>
@@ -24,13 +24,14 @@ export default function RelaxDental() {
             </ul>
             <h5>Summary</h5>
             <p>
-              <br />I noticed that my dentist&apos;s website was, as you can see
+              I noticed that my dentist&apos;s website was, as you can see
               below, in an appalling state. I offered my services to him, and
               upon arriving home, I could see that he had a WordPress site. I
               knew immediately that he likely had not paid for his themes, or
               that his plugins no longer worked. However, I still quickly tidied
               up the homepage to show him what I could do and offered to modify
               the CSS directly for him. <br />
+              <br />
               Apparently, he was quite unaware of the situation, and decided to
               contact whomever developed the initial theme to pay for
               subscriptions and such again. The website has not been fixed yet,
