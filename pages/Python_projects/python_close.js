@@ -1,9 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import NavigationBar from "../../components/navbar";
-import GameImage1 from "../../public/border_security_1.png";
-import GameImage2 from "../../public/border_security_2.png";
 
 export default function PythonClose() {
   return (
@@ -42,13 +37,13 @@ export default function PythonClose() {
             provided in Power BI (similar to Excel, but more powerful).
           </p>
           <p>
-            This was first accomplished by finding the Close API&apos;s
-            endpoints and testing the Close Python wrapper. The wrapper suited
-            most of our purposes but not all. Therefore, I had to abandon use of
-            the wrapper. Then, I had to deal with pagination in two different
-            ways, as some of the data were far more numerous and likely to
-            exceed Close&apos;s API&apos;s limits than others. The end result
-            was delivered on March 6th.
+            This was first accomplished by finding the Close API&#39;s endpoints
+            and testing the Close Python wrapper. The wrapper suited most of our
+            purposes but not all. Therefore, I had to abandon use of the
+            wrapper. Then, I had to deal with pagination in two different ways,
+            as some of the data were far more numerous and likely to exceed
+            Close&#39;s API&#39;s limits than others. The end result was
+            delivered on March 6th.
           </p>
         </div>
       </div>
