@@ -6,10 +6,6 @@ body {
   margin: 0px;
 }
 
-.container {
-  padding: 0 2rem;
-}
-
 /* Intra-directory links */
 
 .mobileMenuLinks {
@@ -28,7 +24,7 @@ body {
 .inTextLinks,
 .noLinkTitle {
   text-decoration: none;
-  color: rgb(255, 154, 82);
+  color: rgb(55, 158, 218);
 }
 
 h5 {

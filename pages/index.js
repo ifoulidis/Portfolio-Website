@@ -42,6 +42,15 @@ export default function Home() {
             [PythonIcon]
           )}
           {Card(
+            "./websites/apologetics_website",
+            "Apologetics Website",
+            <p>
+              Next.js Website &bull; Quiz built from scratch with JS &bull; Many
+              Features
+            </p>,
+            [NextJSIcon]
+          )}
+          {Card(
             "./websites/relax_dental",
             "Relax Dental",
             <p>See how I tidied up a website with failed plugins</p>,
