@@ -3,7 +3,7 @@ import NavigationBar from "../../components/navbar";
 export default function ApologeticWebsite() {
   return (
     <div>
-      <NavigationBar page="projects" />
+      <NavigationBar />
       <div className="container">
         <div>
           <div id="content">

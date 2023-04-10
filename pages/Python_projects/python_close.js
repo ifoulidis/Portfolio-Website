@@ -3,7 +3,7 @@ import NavigationBar from "../../components/navbar";
 export default function PythonClose() {
   return (
     <div>
-      <NavigationBar page="projects" />
+      <NavigationBar />
       <div className="container">
         <div id="content">
           <div>

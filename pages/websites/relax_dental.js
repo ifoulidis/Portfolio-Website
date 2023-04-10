@@ -8,7 +8,7 @@ import NavigationBar from "../../components/navbar";
 export default function RelaxDental() {
   return (
     <div>
-      <NavigationBar page="projects" />
+      <NavigationBar />
       <div className="container">
         <div>
           <div id="content">

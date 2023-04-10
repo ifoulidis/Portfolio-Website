@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Head from "next/head";
 
-export default function NavigationBar(page) {
+export default function NavigationBar({ page }) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -15,9 +15,9 @@ export default function NavigationBar(page) {
 
   useEffect(() => {
     if (page) {
-      if (page.page === "aboutme") {
+      if (page === "aboutme") {
         setSt1({ fontWeight: "600" });
-      } else if (page.page === "projects") {
+      } else if (page === "projects") {
         setSt2({ fontWeight: "600" });
       }
       // else if (page.page==='gallery'){
