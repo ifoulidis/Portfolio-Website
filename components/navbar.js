@@ -35,14 +35,6 @@ export default function NavigationBar({ page }) {
         />
       </Head>
 
-      <div id="Banner">
-        <h2 id="banner-text">
-          <Link href="/">
-            <a>ISAIAH FOULIDIS</a>
-          </Link>
-        </h2>
-      </div>
-
       <nav>
         <div className="desktopNav">
           <motion.div

@@ -6,7 +6,10 @@ import ReactIcon from "../public/react_icon.png";
 import CSharpIcon from "../public/csharp_icon.png";
 import NextJSIcon from "../public/nextjs_icon.png";
 import BootstrapIcon from "../public/bootstrap.png";
+import JQueryIcon from "../public/jquery.png";
 import PHPIcon from "../public/php.png";
+import FirebaseIcon from "../public/firebase_icon.png";
+import MYSQLIcon from "../public/mysql.png";
 import JSIcon from "../public/javascript.png";
 import HTMLIcon from "../public/html.png";
 import CSSIcon from "../public/css3.png";
@@ -16,10 +19,20 @@ export default function Home() {
   return (
     <div>
       <NavigationBar page="projects" />
-      <div className="container">
+      <div className="maincontainer">
         <div className="grid-container">
-          {/* {Card("./other_projects/apologetics_website", 'Apologetics Website', 
-          <p>A neat website with self-made quizzes and articles</p>, [NextJSIcon, ReactIcon, BootstrapIcon])} */}
+          {Card(
+            "./websites/spitfire_records",
+            "Spitfire Records",
+            <p>Admin centre, payments, product filters, etc.</p>,
+            [PHPIcon, MYSQLIcon, JQueryIcon]
+          )}
+          {Card(
+            "./websites/amazon_clone",
+            "Amazon Clone",
+            <p>Features login/logout, a shopping cart, etc.</p>,
+            [ReactIcon, FirebaseIcon]
+          )}
           {Card(
             "./Python_projects/python_close",
             "Python Interface for Close API",
@@ -50,13 +63,14 @@ export default function Home() {
             </p>,
             [NextJSIcon]
           )}
+          {/*
           {Card(
             "./websites/relax_dental",
             "Relax Dental",
             <p>See how I tidied up a website with failed plugins</p>,
             [CSSIcon]
           )}
-          {Card(
+           {Card(
             "./other_projects/savvy_spending",
             "React Native Spending Tracker",
             <p>Cross-platform app &bull; UI built with JSX</p>,
@@ -67,8 +81,8 @@ export default function Home() {
             "Portfolio Website",
             <p>See how this website was made</p>,
             [NextJSIcon, ReactIcon, BootstrapIcon]
-          )}
-          {Card(
+          )} */}
+          {/* {Card(
             "./websites/latin_blog",
             "Latin Blog",
             <p>A crisp blog with nice features</p>,
@@ -79,9 +93,8 @@ export default function Home() {
             "Bootstrap Blog",
             <p>A simple blog built with Bootstrap</p>,
             [BootstrapIcon, JSIcon, CSSIcon]
-          )}
-
-          {Card(
+          )} */}
+          {/* {Card(
             "./websites/white_dove_painting",
             "White Dove Painting",
             <p>A W3.CSS website for a small business</p>,
@@ -97,8 +110,8 @@ export default function Home() {
             "./Python_projects/folium_map",
             "Folium Map with Layers",
             <p>Interactive markers on a web-map</p>,
-            [PythonIcon]
-          )}
+            [PythonIcon] 
+          )}*/}
         </div>
       </div>
     </div>
