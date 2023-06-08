@@ -35,7 +35,7 @@ export default function Home() {
           )}
           {Card(
             "./Python_projects/python_close",
-            "Python Interface for Close API",
+            "Python Interface for Close (CRM)",
             <p>
               I used Fast API in Python to connect to the Close API and prepare
               data for Power BI

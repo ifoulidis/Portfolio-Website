@@ -28,7 +28,7 @@ export default function NavigationBar({ page }) {
   return (
     <div>
       <Head>
-        <title>Isaiah Foulidis</title>
+        <title>Foulidis Design</title>
         <meta
           name="description"
           content="Created by Isaiah Foulidis with Next.js."
