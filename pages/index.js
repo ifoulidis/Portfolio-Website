@@ -31,7 +31,7 @@ export default function Home() {
             "./websites/amazon_clone",
             "Amazon Clone",
             <p>Features login/logout, a shopping cart, etc.</p>,
-            [ReactIcon, FirebaseIcon]
+            [ReactIcon, CSSIcon, FirebaseIcon]
           )}
           {Card(
             "./Python_projects/python_close",
@@ -61,7 +61,7 @@ export default function Home() {
               Next.js Website &bull; Quiz built from scratch with JS &bull; Many
               Features
             </p>,
-            [NextJSIcon]
+            [NextJSIcon, CSSIcon]
           )}
           {/*
           {Card(
