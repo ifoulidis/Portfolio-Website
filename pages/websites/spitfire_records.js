@@ -44,7 +44,9 @@ export default function SpitfireRecords() {
             </p>
             <h5>Website</h5>
             <p>
-              <i>Coming in late June (owner on overseas trip)</i>
+              <a href="https://spitfirerecords.co.nz" className="inTextLinks">
+                https://spitfirerecords.co.nz
+              </a>
             </p>
             <h5>Summary</h5>
             <p>
@@ -56,11 +58,6 @@ export default function SpitfireRecords() {
               supported by virtually all hosting providers, and that React.js
               does not cooperate with search engines very well (when last I
               checked).
-            </p>
-            <p>
-              The website will be completed by the end of June. Currently, it is
-              a little ugly, as I am waiting on the logo to base the colours and
-              style off, and I am finishing off some other features.
             </p>
             <p>
               The website has a large number of functions, so it is best you go
